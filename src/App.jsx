@@ -2,13 +2,14 @@
 import React from 'react'
 import Login from './auth/login/Login'
 // import Daftar from './auth/daftar/Daftar'
+import Riwayat from './pages/Riwayat/Riwayat'
 
 function App() {
   return (
     <>
-    <Login />
-    {/* <Daftar /> */}
-
+      <Login />
+      {/* <Daftar /> */}
+      <Route path="riwayat" element={<Riwayat />} />
     </>
   )
 }
