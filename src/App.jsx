@@ -7,7 +7,7 @@ import Riwayat from './pages/Riwayat/Riwayat'
 function App() {
   return (
     <>
-      <Login />
+      <Route path="login" element={<Login/>} />
       {/* <Daftar /> */}
       <Route path="riwayat" element={<Riwayat />} />
     </>
