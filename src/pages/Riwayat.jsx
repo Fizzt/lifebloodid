@@ -1,5 +1,9 @@
 import React from "react";
+<<<<<<< HEAD:src/pages/Riwayat/Riwayat.jsx
 import "./Riwayat.css"
+=======
+import "./riwayat.css"
+>>>>>>> 3747ed61f5d937dc38d2f40632cca793dcc0d63a:src/pages/Riwayat.jsx
 
 function Riwayat() {
     return (
