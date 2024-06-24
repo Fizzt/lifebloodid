@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../css/riwayat.css"
+import "./Riwayat.css"
 
 function Riwayat() {
     return (
