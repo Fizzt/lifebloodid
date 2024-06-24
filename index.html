@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>LifeBloodID</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
-    <div id="root"></div>
     <nav class="navbar navbar-expand-lg bg-danger py-2" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">LifeBloodID</a>
@@ -36,7 +37,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Event</a>
+              <a class="nav-link active" href="event.html">Event</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#">Stok Darah</a>
@@ -55,7 +56,7 @@
       </div>
     </nav>
 
-    <section id="header text-center text-sm-start">
+    <section id="header" class="text-center text-sm-start">
       <div class="container">
         <div class="d-flex align-items-center mt-5 pt-5">
           <div>
@@ -80,16 +81,285 @@
         </div>
       </div>
     </section>
-    <script type="module" src="/src/main.jsx"></script>
+
+    <section class="hero-section">
+      <h1>Tentang LifeBloodID</h1>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center">
+            <img
+              src="img/about.png"
+              alt="LifeBloodID Illustration"
+              class="illustration"
+            />
+          </div>
+          <div class="col-md-6 hero-text">
+            <p>
+              Platform kami adalah solusi terkini untuk mendukung kegiatan donor
+              darah secara efektif dan efisien. Dengan teknologi canggih, kami
+              menyediakan berbagai fitur unggulan yang memudahkan proses donasi,
+              mulai dari pelacakan stok darah secara real-time hingga
+              pendaftaran donor yang cepat dan sederhana. Selain itu, kami juga
+              menyajikan informasi lengkap tentang proses donasi dan memberikan
+              pengingat jadwal donasi kepada pengguna kami. Dengan platform
+              kami, kami berkomitmen untuk mendukung upaya penyelamatan nyawa
+              melalui donor darah dengan memberikan pengalaman yang terbaik bagi
+              para donor dan penerima manfaatnya.
+            </p>
+            <a href="#" class="btn-download">Download App</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section">
+      <div class="container">
+        <h3 class="lead">
+          Apakah Anda saat ini membutuhkan layanan darah dalam keadaan mendesak?
+        </h3>
+        <p>
+          Anda dapat menghubungi tim LifeBloodID untuk mendapatkan panduan
+          teknis mengenai proses donor darah, detail alur permintaan darah ke
+          PMI, serta langkah-langkah pendaftaran sebagai calon pendonor.
+        </p>
+        <a href="#" class="btn-contact">Kontak LifeBloodID</a>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="title">Kenapa LifeBloodID ?</div>
+      <div class="subtitle">
+        Berbagi perjalanan hidup, menerapkan gaya hidup sehat, dan menyebarkan
+        kebaikan dalam satu platform.
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="feature-card">
+            <img src="img/fitur1.jpg" alt="Feature 1" />
+            <p>
+              Temukan jadwal terdekat, pelajari informasi penting dan dapatkan
+              reward setelah donor darah
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card">
+            <img src="img/fitur1.jpg" alt="Feature 2" />
+            <p>
+              Akses tes darah untuk menjaga kesehatan dan mencegah resiko
+              penyakit kronis
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card">
+            <img src="img/fitur1.jpg" alt="Feature 3" />
+            <p>
+              Monitor data dan informasi kesehatan dengan mudah untuk penanganan
+              medis yang dibutuhkan
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section-title">Artikel</div>
+      <div class="row">
+        <div class="col-md-6 text-left">
+          <div class="sub-title sub-title-1">Artikel Terpopuler</div>
+        </div>
+        <div class="col-md-6 text-right">
+          <div class="sub-title sub-title-2">Lihat Informasi Lainnya</div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/artikel1.jpg"
+              class="card-img-top"
+              alt="Artikel Image"
+            />
+            <div class="card-body">
+              <div class="card-title">Syarat Donor Darah</div>
+              <div class="card-text">
+                Apa saja syarat untuk mendonorkan darah? Sehat jasmani dan
+                rohani Usia 17 sampai dengan 65 tahun, berat badan minimal 45 kg
+                tekanan darah sistole 100-170 diastole 70-100 kadar hemoglobin
+                12,5g% s/d 17,0g%. [...]
+              </div>
+            </div>
+            <div class="card-footer">07 Mei 2024</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/artikel1.jpg"
+              class="card-img-top"
+              alt="Artikel Image"
+            />
+            <div class="card-body">
+              <div class="card-title">Syarat Donor Darah</div>
+              <div class="card-text">
+                Apa saja syarat untuk mendonorkan darah? Sehat jasmani dan
+                rohani Usia 17 sampai dengan 65 tahun, berat badan minimal 45 kg
+                tekanan darah sistole 100-170 diastole 70-100 kadar hemoglobin
+                12,5g% s/d 17,0g%. [...]
+              </div>
+            </div>
+            <div class="card-footer">07 Mei 2024</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/artikel1.jpg"
+              class="card-img-top"
+              alt="Artikel Image"
+            />
+            <div class="card-body">
+              <div class="card-title">Syarat Donor Darah</div>
+              <div class="card-text">
+                Apa saja syarat untuk mendonorkan darah? Sehat jasmani dan
+                rohani Usia 17 sampai dengan 65 tahun, berat badan minimal 45 kg
+                tekanan darah sistole 100-170 diastole 70-100 kadar hemoglobin
+                12,5g% s/d 17,0g%. [...]
+              </div>
+            </div>
+            <div class="card-footer">07 Mei 2024</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section-title-new">Stok Darah | Event Donor</div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">Stok Darah PMI Kab. Mojokerto</div>
+              <div class="chart-container">
+                <canvas id="bloodStockChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">Event Donor</div>
+              <div class="events">
+                <div class="event-card">
+                  <div class="event-icon">
+                    <img src="img/icon1.png" alt="icon" />
+                  </div>
+                  <div class="event-info">
+                    <h5>RSUD Dr. Soetomo</h5>
+                    <p>Tanggal: 15 Juli 2024, Jam: 09:00 - 15:00</p>
+                  </div>
+                </div>
+                <div class="event-card">
+                  <div class="event-icon">
+                    <img src="img/icon2.png" alt="icon" />
+                  </div>
+                  <div class="event-info">
+                    <h5>Mall XYZ</h5>
+                    <p>Tanggal: 20 Juli 2024, Jam: 10:00 - 16:00</p>
+                  </div>
+                </div>
+                <div class="event-card">
+                  <div class="event-icon">
+                    <img src="img/icon3.png" alt="icon" />
+                  </div>
+                  <div class="event-info">
+                    <h5>Kantor PMI Surabaya</h5>
+                    <p>Tanggal: 25 Juli 2024, Jam: 08:00 - 14:00</p>
+                  </div>
+                </div>
+                <div class="event-card">
+                  <div class="event-icon">
+                    <img src="img/icon4.png" alt="icon" />
+                  </div>
+                  <div class="event-info">
+                    <h5>Universitas ABC</h5>
+                    <p>Tanggal: 30 Juli 2024, Jam: 09:00 - 13:00</p>
+                  </div>
+                </div>
+                <div class="event-card">
+                  <div class="event-icon">
+                    <img src="img/icon5.png" alt="icon" />
+                  </div>
+                  <div class="event-info">
+                    <h5>Lapangan Merdeka</h5>
+                    <p>Tanggal: 5 Agustus 2024, Jam: 07:00 - 12:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Ketik & pilih Nama Instansi / Kecamatan....."
+        />
+        <button id="searchButton"><i class="fas fa-search"></i> Cari</button>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section contact-info">
+            <img
+              src="img/logo.png"
+              alt="LifeBloodID Logo"
+              class="footer-logo"
+            />
+            <h3>Hubungi Kami</h3>
+            <p>Jalan Ratu Langit No. 127, Kota Mojokerto, Jawa Timur</p>
+            <p><i class="fas fa-phone"></i> +6289604223348</p>
+            <p><i class="fas fa-envelope"></i> lifebloodid@gmail.id</p>
+          </div>
+          <div class="footer-section">
+            <h3>Tentang LifeBloodID</h3>
+            <p><a href="#">Kebijakan & Aplikasi</a></p>
+            <p><a href="#">Pusat Bantuan</a></p>
+          </div>
+          <div class="footer-section">
+            <h3>Ketentuan Pengguna</h3>
+            <p><a href="#">FAQ</a></p>
+          </div>
+          <div class="footer-section social-links">
+            <h3>Ikuti Kami</h3>
+            <p><i class="fas fa-calendar-alt"></i> Event</p>
+            <p><i class="fas fa-tint"></i> Stok Darah</p>
+            <p><i class="fas fa-calendar-check"></i> Jadwal</p>
+            <p><i class="fas fa-history"></i> Riwayat</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
   </body>
