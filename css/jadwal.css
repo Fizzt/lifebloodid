@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.btn-group .btn {
+  margin-right: 5px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.img-fluid {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+}
+.footer {
+  background: linear-gradient(135deg, #c00000, #900000);
+  color: white;
+  padding: 40px 0;
+}
+
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer p,
+.footer a {
+  font-size: 14px;
+  margin: 5px 0;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffcccb;
+}
+
+.footer i {
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffcccb;
+  transform: scale(1.2);
+}
